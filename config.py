@@ -14,6 +14,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "821215952"))
 DB_URL = os.environ.get("DB_URL", "")
 DB_NAME = os.environ.get("DB_NAME", "PREMIUM")
 
+START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.")
+
+
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/SPw.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/SPq.jpg")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002427224406"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002394882186"))
