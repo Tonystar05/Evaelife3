@@ -10,21 +10,21 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://settings'>ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/CornFlix_link'>xғʟɪx ᴀᴅᴜʟᴛ</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/xeonflixmovies'>ᴛᴇᴀᴍ xᴇᴏɴғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/TeamXeon'>xᴇᴏɴғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ  : <a href='https://t.me/Anime_Xeon'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://settings'>ᴛʜɪꜱ ᴘᴇʀꜱᴏɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Corn_Galaxy'>ᴄᴏʀɴғʟɪx</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/MovieflixOcean'>ᴛᴇᴀᴍ xᴇᴏɴғʟɪx</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/TeamXeon'>xᴇᴏɴғʟɪx ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ  : <a href='https://t.me/Anime_Xeon'>ᴡᴇᴇʙ ᴢᴏɴᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/CornFlix_link"),
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/Corn_Galaxy"),
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/Xeonflix')
                     ],
                     [
-                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/Xeonflixmovies"),
-                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/TeamXeon')
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MovieflixOcean"),
+                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/SeriesFlixOcean')
                     ],
                     [
                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/+uQ67sH2k6HNiZTc1')
+                    InlineKeyboardButton('ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url='https://t.me/+4dLtfx8FaJExMDYx')
                     ]
                 ]
             )
