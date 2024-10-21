@@ -6,11 +6,11 @@ from logging.handlers import RotatingFileHandler
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", "27050683"))
-API_HASH = os.environ.get("API_HASH", "013a5c0b1f2c320b98236cf212835d59")
+API_ID = int(os.environ.get("API_ID", "15529802"))
+API_HASH = os.environ.get("API_HASH", "92bcb6aa798a6f1feadbc917fccb54d3")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "6048003536"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "821215952"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://2gbRenameAUG:2gbRenameAUG@cluster0.uaysx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "FileStoreXeon2Bot")
 
@@ -73,7 +73,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6848088376)
+ADMINS.append(821215952)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
