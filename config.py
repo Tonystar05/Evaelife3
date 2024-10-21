@@ -21,7 +21,7 @@ START_PIC = os.environ.get("START_PIC", "https://envs.sh/SPw.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/SPq.jpg")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002427224406"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002394882186"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002329702484"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001542373688"))
 
 
